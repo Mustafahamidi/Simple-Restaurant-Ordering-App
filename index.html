@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant ordering app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+       <header class="header">
+            
+       </header>
+       <main class="main" id="main">
+            <section id="menu-section" class="menu-section">
+
+            </section>
+            <section id="order-section-contanier" class="order">
+                <div class="order-section" id="order-section">
+                    
+
+                </div>
+            </section>
+
+            <div class="form-container" id="form-container">
+                <h2>Enter Card Details</h2>
+                <form id="payment-form">
+                    <div class="form-group">
+                        <label for="card-name">Enter Your Name</label>
+                        <input type="text" id="card-name" name="card-name" placeholder="John Doe" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="card-number">Enter Card Number</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9101 1121" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="cvv">Enter CVV</label>
+                        <input type="password" id="cvv" name="cvv" placeholder="123" required>
+                    </div>
+        
+                    <button type="submit" class="submit-btn" id="submit-btn">Pay</button>
+                </form>
+            </div>
+            
+       </main>
+       <footer id="footer">
+
+       </footer>
+       
+      
+
+    
+    <script src="app.js" type="module"></script>
+</body>
+</html>

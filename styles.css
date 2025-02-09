@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 600px;
+    height: 167px;
+    background-image: url(header.png);
+    margin: 0 auto;
+}
+
+.main {
+    width: 600px;
+    margin: 20px auto;
+}
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.item {
+    width: 508px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.emoji {
+    font-size: 4rem;
+
+}
+.about-item {
+    display: flex;
+    flex-direction: column;
+}
+.item-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+}
+.item-description {
+    color:#8B8B8B;
+    font-size: 1rem;
+}
+.item-price {
+    font-size: 1.1rem;
+    color: #000000;
+}
+.item-btn-div{
+    display: flex;
+}
+.item-btn {
+    width: 50px;
+    height: 50px;
+    color:#3C3C3C;
+    background-color:#DEDEDE;
+    border-radius:60%;
+    border: none;
+    margin: auto 0 auto auto;
+    
+}
+.item {
+    padding: 15px;
+    border-bottom: 1px solid #ccc; /* This will create the divider */
+}
+
+.item:last-child {
+    border-bottom: none; /* Removes border from the last item */
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: inline;
+}
+
+
+
+
+/* order section */
+
+.order-section {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.item-name {
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.item-price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.total-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.complete-order-btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.complete-order-btn:hover {
+    background-color: #45a049;
+}
+
+
+/* Form container */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 400px;
+    max-width: 400px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    margin: auto;
+    display: none;
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.submit-btn:active {
+    background-color: #004085;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ECFDF5;
+    text-align: center;
+    width:600px ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+footer h3 {
+    font-weight:bolder ;
+    color: #065F46;
+    font-size: 1.5rem;
+}
+
+
+
