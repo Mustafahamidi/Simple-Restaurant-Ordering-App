@@ -13,5 +13,5 @@ This is a **simple restaurant ordering web app** that allows users to browse a m
 - 🛒 **Complete Order**: Opens a payment form when the "Complete Order" button is clicked.  
 - ✅ **Order Confirmation**: Displays a thank-you message with the customer's name after submitting the order.  
 
-## 📂 Project Structure
+
 
